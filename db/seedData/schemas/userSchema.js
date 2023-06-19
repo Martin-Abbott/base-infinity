@@ -70,7 +70,7 @@ const userSchema = new mongoose.Schema({
       },
     ],
     rating: { type: Number },
-    qualifications: { type: String },
+    qualifications: [{ type: String }],
     website: { type: String },
     reviews: [
       {
