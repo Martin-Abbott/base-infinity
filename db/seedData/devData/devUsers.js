@@ -1,5 +1,6 @@
 const devData = [
   {
+    _id: "648ac42475c58ca8fbe8b6d7",
     userName: "flashing",
     firstName: "Tymon",
     lastName: "Clay",
@@ -2522,7 +2523,7 @@ const devData = [
           comments: [
             {
               comment_body: "Aristotle would be proud.",
-              created_by: "believes",
+              created_by: "flashing",
               votes: [{ vote: 1, user_id: "648ac42475c58ca8fbe8b6d7" }],
             },
           ],
